@@ -12,7 +12,7 @@
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 
 		<!-- Use the Hibernate built-in pool for tests. -->
-		<property name="connection.pool_size">1</property>
+		<property name="connection.pool_size">10</property>
 
 		<!-- Show all SQL DML executed by Hibernate -->
 		<property name="show_sql">true</property>
@@ -22,6 +22,7 @@
 		<property name="hbm2ddl.auto">create</property>
 
 		<!-- Mapping files -->
-		<mapping class="edu.mum.cs.cs544.examples.Employee" />
+		<mapping class="com.ethio.examples.Car" />
+		<mapping class="com.ethio.examples.Book" />
 	</session-factory>
 </hibernate-configuration>

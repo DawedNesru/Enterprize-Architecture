@@ -1,0 +1,42 @@
+package com.ethio.examples;
+
+import java.util.Date;
+
+
+public class Laptop {
+
+	private int id;
+	private String brand;
+	private String model;
+
+	private Date purchase_date;
+
+	public Laptop() {
+
+	}
+
+	public String getBrand() {
+		return brand;
+	}
+
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+
+	public String getModel() {
+		return model;
+	}
+
+	public void setModel(String model) {
+		this.model = model;
+	}
+
+	public Date getPurchase_date() {
+		return purchase_date;
+	}
+
+	public void setPurchase_date(Date purchase_date) {
+		this.purchase_date = purchase_date;
+	}
+
+}

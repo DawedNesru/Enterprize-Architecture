@@ -12,7 +12,7 @@
         <property name="dialect">org.hibernate.dialect.MySQL5Dialect</property>
 
 		<!-- Use the Hibernate built-in pool for tests. -->
-		<property name="connection.pool_size">1</property>
+		<property name="connection.pool_size">10</property>
 
 		<!-- Show all SQL DML executed by Hibernate -->
 		<property name="show_sql">true</property>
