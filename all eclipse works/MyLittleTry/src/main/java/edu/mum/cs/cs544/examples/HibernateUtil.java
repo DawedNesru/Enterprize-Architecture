@@ -20,7 +20,6 @@ try {
         .build();
 
     return new MetadataSources( registry ).buildMetadata().buildSessionFactory();
-
 }
 catch(Exception e) {   
 
