@@ -10,6 +10,7 @@ public class HelloWorldTask extends TimerTask {
 		Date date = Calendar.getInstance().getTime();
 		DateFormat timeFormatter = DateFormat.getTimeInstance(DateFormat.DEFAULT);
 		String currenttime = timeFormatter.format(date);
+		System.out.println("this is bullshit");
 		System.out.println("This task ran at " + currenttime);
 	}
 }

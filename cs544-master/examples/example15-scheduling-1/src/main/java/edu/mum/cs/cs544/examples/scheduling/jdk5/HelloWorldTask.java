@@ -6,9 +6,6 @@ import java.util.Date;
 
 public class HelloWorldTask implements Runnable {
 	public void run() {
-		Date date = Calendar.getInstance().getTime();
-		DateFormat timeFormatter = DateFormat.getTimeInstance(DateFormat.DEFAULT);
-		String currenttime = timeFormatter.format(date);
-		System.out.println("This task ran at " + currenttime);
+	System.out.println("the whole is good ");
 	}
 }

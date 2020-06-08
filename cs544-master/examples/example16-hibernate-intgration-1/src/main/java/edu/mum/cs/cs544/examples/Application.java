@@ -19,7 +19,7 @@ public class Application {
 		Address billingAddress = new Address("1000 N 4th Street", "Box 314", "Fairfield", "Iowa", "52557");
 		
 		CustomerService customerService = new CustomerService();
-		
+
 		customerService.addNewCustomer(customer, customerAddress, creditCard, billingAddress);
 		
 		List<Customer> customers = customerService.getCustomerList();

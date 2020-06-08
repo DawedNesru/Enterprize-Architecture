@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring: 
+  application:
+    name: simple-geography-service
+  datasource:
+    url: jdbc:mysql://localhost:3306/sakila?serverTimezone=UTC
+    username: root
+    password: root
+    driverClassName: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+        implicit-strategy: org.hibernate.boot.model.naming.ImplicitNamingStrategyLegacyJpaImpl
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+        jdbc:
+           time_zone: UTC
+the-main-page: the-main-page     
+simple-geography-service:
+  service-name: simple-geography-service
+  username: app-user
+  password: ahmed      
+           
+
+
+
